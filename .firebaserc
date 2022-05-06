@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-app-2e440": {
+      "hosting": {
+        "demo-app": [
+          "fir-app-2e440"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-app-2e440"
+  }
+}
