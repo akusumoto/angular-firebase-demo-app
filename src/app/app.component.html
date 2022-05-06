@@ -11,3 +11,7 @@
     <button mat-raised-button (click)="login()">ログイン</button>
   </ng-template>
 </mat-toolbar>
+
+<ng-container *ngIf="user$ | async as user">
+  <router-outlet></router-outlet>
+</ng-container>
